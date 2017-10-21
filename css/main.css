@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+.menu {
+    font-family: 'Lato', sans-serif;    
+    margin: auto;
+    width: 775px;
+}
+.menu-item {
+    background-color: #FBFBFB;
+    border: 2px solid #F7F7F7;
+    border-left-color: #FBFBFB;
+    border-top-color: #FBFBFB;
+    color: #777;
+    float: left;
+    height: 200px;
+    margin: 2.5px;
+    padding: 0 5px;
+    text-align: center;
+    width: 150px;
+}
+.menu-item:hover {
+    background-color: white;
+    color: #BAC7DE;
+}
+.menu-item .icon {
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu-item:hover .icon {
+    font-size: 50px;
+    font-weight: normal;
+}
+.menu-item h3 {
+    font-size: 16px;
+}
+.menu-item h4 {
+    font-size: 8px;
+}
+.menu-item p {
+    font-size: 10px;
+}
