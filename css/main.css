@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 .menu {
+    background-color: red;
+    padding-top: 50px;
+    height: 300px;
+
+
     font-family: 'Lato', sans-serif;    
     margin: auto;
-    width: 775px;
+    width: 770px;
 }
 .menu-item {
     background-color: #FBFBFB;
@@ -14,8 +19,8 @@
     color: #777;
     float: left;
     height: 200px;
-    margin: 2.5px;
-    padding: 0 5px;
+    margin: 2px;
+    padding: 20px 5px;
     text-align: center;
     width: 150px;
 }
