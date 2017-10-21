@@ -2,11 +2,8 @@
     box-sizing: border-box;
 }
 .menu {
-    background-color: red;
     padding-top: 50px;
     height: 300px;
-
-
     font-family: 'Lato', sans-serif;    
     margin: auto;
     width: 770px;
@@ -27,6 +24,12 @@
 .menu-item:hover {
     background-color: white;
     color: #BAC7DE;
+    height: 220px;
+    margin-top: -7px;
+    width: 170px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 10px;
 }
 .menu-item .icon {
     font-size: 30px;
